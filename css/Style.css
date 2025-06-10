@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  box-sizing:
+    border-box
+}
+.container {
+  width: 80%;
+  margin: 0 auto
+}
+body {
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  font-size: 16px;
+  color: #3D3D3D;
+  margin: 0
+}
+.img-100 {
+  width: 100%;
+  height: auto
+}
+.logo {
+  float: left
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #FFAD14
+}
+.menu {
+  float: right;
+  padding-top: 20px
+}
+.menu a {
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 800
+}
+.menu a:hover {
+  color: #BF0EC9
+}
+main {
+  width: 100%;
+  min-height: 500px
+}
+.w-25 {
+  width: 25%;
+  padding: 15px;
+  float: left
+}
+.vien {
+  width: 100%;
+  min-height: 150px;
+  border: 1.5px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px
+}
+.bogoc {
+  border-radius: 10px
+}
+.tour {
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+}
+.gia {
+  color: red;
+  font-weight: 400px;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #EFB420;
+  clear: both;
+  color: white;
+  text-align: center
+}
+.w-40 {
+  width: 40%;
+  padding: 15px;
+  float: left
+}
+.w-60 {
+  width: 60%;
+  float: left;
+  padding: 15px;
+}
+.form-control {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%
+}
+.nut {
+  background-color: #DC3A3D;
+  border-radius: 30px;
+  padding: 10 20;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer
+}
+.nut:hover {
+  background-color: #FF0004
+}
+.vien-xam {
+  width: 100%;
+  min-height:300px;
+  border: 1px solid #A2A2A2;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px
+}
+.text-xanh {
+  color: blue
+}
